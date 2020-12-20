@@ -1,0 +1,24 @@
+
+import py_matrix as mt
+	import py_matrix package to main code
+  
+obj = mt.custom_matrix()
+	create a object for each matrix to create
+  
+obj.diagonal_matrix(x)
+	When call ask to enter diagonal elements of each row to create a diagonal matrix of block size of x
+  
+obj.square_matrix(x)
+	when call ask to enter matrix coefficient of square matrix with block size x
+  
+obj.nested_matrix(x)
+	It creates a nested matrix of order x. While calling it asked automaticly to put the diagonal block size which will appear inside the nested matrix. Thus it will ask to provide each element.
+
+obj.multiplication(matA,matB)
+	It gives the result of multiplication of two matrix matA and matB
+  
+obj.inverse(matA)
+	It gives the result of matrix inverse operation. And it throw a system error while inverse operation is not possible.
+  
+Obj.views(ip)  
+	It takes any matrix and give visual output as matrix
