@@ -1,0 +1,26 @@
+Algorithm 1: Algorithm to calculate matrix multiplication:
+
+1.	Start
+2.	Read two matrix A and B
+3.	Initialize a resultant matrix with all zeroes
+4.	Then multiply each row elements of first matrix with the corresponding column elements of second matrix and add up those multiplied values
+5.	Continue this process for all each row of first matrix and update resultant matrix with these values
+6.	Display the result
+7.	Stop
+
+
+Algorithm 2: Algorithm to find Inverse matrix:
+
+1.	Start
+2.	Read a matrix (A)
+3.	Get the size of the matrix n
+4.	Create an identity matrix (I) of n x n block
+5.	Create an empty n x n matrix (to store final result) 
+6.	Create an empty n x 2n matrix
+7.	Joint matrix (A) and Identity matrix (I) into n x 2x Augmented matrix [A|I] 
+8.	Transport the row operation until it looks like [I|A]
+	a. first, make first portion as diagonal matrix
+	b. obtain solution by making the diagonal element 1
+9.	Separate the second half of the augmented matrix to the empty n x n matrix
+10.	Display the result
+11.	Stop
